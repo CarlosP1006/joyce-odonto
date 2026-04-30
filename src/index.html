@@ -1,44 +1,33 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-  <script src="scripts/paginacao.js" defer></script>
-  <script src="scripts/main.js" defer></script>
-  <title>SwapStore - Home</title>
+  <title>Dra. Joyce</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
-<body data-pagina="inicio">
-  <header class="site-header">
-    <div class="top-green-line"></div>
-    <div class="container header-content">
-      <a class="brand" href="index.html" aria-label="Ir para a Home">
-        <img src="assets/images/logo.jpg" alt="Logo da SwapStore">
+<body>
+  <header class="hotbar">
+    <div class="container">
+      <a href="#" class="logo-hotbar nav-link" id="logo-home" aria-label="Página Inicial" data-page="home">
+        <img src="images/logo.png" alt="Logo" class="logo-img-hotbar">
       </a>
-
-      <button class="menu-toggle" id="botaoMenu" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav class="main-nav" id="navegacaoPrincipal" aria-label="Navegacao principal">
-        <a href="index.html" class="nav-link" data-pagina-link="inicio">Home</a>
-        <a href="produto.html" class="nav-link" data-pagina-link="produto">Produto</a>
-        <a href="carrinho.html" class="nav-link" data-pagina-link="carrinho">Carrinho</a>
-        <a href="acompanhar.html" class="nav-link" data-pagina-link="acompanhar">Acompanhar</a>
-        <a href="publicar.html" class="nav-link" data-pagina-link="publicar">Publicar</a>
+      <nav class="menu">
+        <a href="#" class="nav-link button-33 active" data-page="home">Página Inicial</a>
+        <a href="#" class="nav-link button-33" data-page="sobre">Sobre Mim</a>
       </nav>
-
-      <a class="profile-box" id="linkPerfil" href="perfil.html" aria-label="Ir para a pagina de perfil">
-        <span class="profile-avatar"></span>
-        <span class="profile-name">Name</span>
-      </a>
     </div>
   </header>
 
-  <main class="page-empty container">
-    <p>Aqui vai ser a Home.</p>
+  <main id="content" class="container">
+    <section id="page-home" class="page">
+      <h1>Bem-vinda ao Consultório</h1>
+      <p>Hello World! Esta é a página inicial.</p>
+    </section>
+
+    <section id="page-sobre" class="page hidden">
+      <h1>Sobre Mim</h1>
+      <p>Aqui você conta sua história profissional.</p>
+    </section>
   </main>
+
+  <script src="scripts/main.js"></script>
 </body>
-</html>
