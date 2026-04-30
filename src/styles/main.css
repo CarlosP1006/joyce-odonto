@@ -9,6 +9,10 @@
   cursor: pointer;
   display: block;
 }
+.logo-hotbar:hover .logo-img-hotbar {
+  transform: scale(1.07);
+  transition: transform 0.18s cubic-bezier(.4,1.3,.5,1);
+}
 
 .logo-img-hotbar {
   width: 96px;
@@ -18,6 +22,7 @@
   border: 1.5px solid #000;
   box-shadow: 0 2px 8px #0002;
   display: block;
+  transition: transform 0.18s cubic-bezier(.4,1.3,.5,1);
 }
 
 .hotbar {
