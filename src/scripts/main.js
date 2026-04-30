@@ -1,9 +1,7 @@
-// Logo como botão para página inicial
 const logoHome = document.getElementById('logo-home');
 if (logoHome) {
     logoHome.addEventListener('click', function(event) {
         event.preventDefault();
-        // Ativa a página inicial
         const links = document.querySelectorAll('.nav-link');
         const pages = document.querySelectorAll('.page');
         links.forEach(l => l.classList.remove('active'));

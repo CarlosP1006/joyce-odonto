@@ -1,3 +1,19 @@
+/* Imagem decorativa no canto inferior direito */
+.img-bg-joyce {
+  position: fixed;
+  right: -60;
+  bottom: 0;
+  height: 92vh;
+  max-height: calc(100vh - 56px);
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
+}
+
+body {
+  position: relative;
+}
 /* Logo sobrepondo hotbar */
 .logo-hotbar {
   position: absolute;
@@ -37,7 +53,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #fffafb;
+  background: linear-gradient(180deg, #ffc1e3 0%, #ffe3f0 40%, #fff 100%);
   color: #333;
 }
 
