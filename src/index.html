@@ -22,6 +22,11 @@
         <a href="#" class="nav-link nav-item" data-page="sobre">Sobre Mim</a>
         <a href="https://wa.me/553584759926?text=Ol%C3%A1%20Dra.%20Joyce%2C%20gostaria%20de%20agendar%20uma%20consulta!" target="_blank" rel="noopener" class="btn-agenda">Agendar Consulta</a>
       </nav>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
@@ -48,17 +53,17 @@
         </div>
         <div class="hero-stats">
           <div class="stat">
-            <span class="stat-number">5</span>
+            <span class="stat-number" data-count="5">5</span>
             <span class="stat-label">Anos de curso</span>
           </div>
           <div class="stat-divider"></div>
           <div class="stat">
-            <span class="stat-number">2027</span>
+            <span class="stat-number" data-count="2027" data-from="2020">2027</span>
             <span class="stat-label">Formatura</span>
           </div>
           <div class="stat-divider"></div>
           <div class="stat">
-            <span class="stat-number">100%</span>
+            <span class="stat-number" data-count="100" data-suffix="%">100%</span>
             <span class="stat-label">Dedicação</span>
           </div>
         </div>
@@ -195,6 +200,11 @@
       (35) 8475-9926
     </a>
   </footer>
+
+  <div class="lgpd-banner" id="lgpd-banner">
+    <p>Este site usa cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa política de privacidade.</p>
+    <button class="lgpd-btn" id="lgpd-accept">Entendi</button>
+  </div>
 
   <script src="scripts/main.js"></script>
 </body>
