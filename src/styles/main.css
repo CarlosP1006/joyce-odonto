@@ -56,7 +56,6 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'DM Sans', -apple-system, system-ui, sans-serif;
   background: var(--grad-hero);
-  background-attachment: fixed;
   color: var(--text-900);
   min-height: 100vh;
   overflow-x: hidden;
